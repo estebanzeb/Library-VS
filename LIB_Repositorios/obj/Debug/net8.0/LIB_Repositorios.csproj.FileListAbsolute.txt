@@ -1,0 +1,31 @@
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\bin\Debug\net8.0\LIB_Repositorios.deps.json
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\bin\Debug\net8.0\LIB_Repositorios.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\bin\Debug\net8.0\LIB_Repositorios.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\bin\Debug\net8.0\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\bin\Debug\net8.0\LIB_Entidades.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.csproj.AssemblyReference.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.AssemblyInfoInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.AssemblyInfo.cs
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.csproj.CoreCompileInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repo.BE14894E.Up2Date
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\refint\LIB_Repositorios.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Repositorios\obj\Debug\net8.0\ref\LIB_Repositorios.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\bin\Debug\net8.0\LIB_Repositorios.deps.json
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\bin\Debug\net8.0\LIB_Repositorios.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\bin\Debug\net8.0\LIB_Repositorios.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\bin\Debug\net8.0\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\bin\Debug\net8.0\LIB_Entidades.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.csproj.AssemblyReference.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.AssemblyInfoInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.AssemblyInfo.cs
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.csproj.CoreCompileInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.sourcelink.json
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repo.BE14894E.Up2Date
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\refint\LIB_Repositorios.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\LIB_Repositorios.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Repositorios\obj\Debug\net8.0\ref\LIB_Repositorios.dll

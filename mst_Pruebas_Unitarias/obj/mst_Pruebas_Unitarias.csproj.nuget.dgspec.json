@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\mst_Pruebas_Unitarias\\mst_Pruebas_Unitarias.csproj": {}
+  },
+  "projects": {
+    "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\LIB_Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\LIB_Entidades.csproj",
+        "projectName": "LIB_Entidades",
+        "projectPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\LIB_Entidades.csproj",
+        "packagesPath": "C:\\Users\\Esteban Quintero\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Esteban Quintero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Repositorios\\LIB_Repositorios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Repositorios\\LIB_Repositorios.csproj",
+        "projectName": "LIB_Repositorios",
+        "projectPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Repositorios\\LIB_Repositorios.csproj",
+        "packagesPath": "C:\\Users\\Esteban Quintero\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Repositorios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Esteban Quintero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\LIB_Entidades.csproj": {
+                "projectPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\LIB_Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\mst_Pruebas_Unitarias\\mst_Pruebas_Unitarias.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\mst_Pruebas_Unitarias\\mst_Pruebas_Unitarias.csproj",
+        "projectName": "mst_Pruebas_Unitarias",
+        "projectPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\mst_Pruebas_Unitarias\\mst_Pruebas_Unitarias.csproj",
+        "packagesPath": "C:\\Users\\Esteban Quintero\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\mst_Pruebas_Unitarias\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Esteban Quintero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\LIB_Entidades.csproj": {
+                "projectPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Entidades\\LIB_Entidades.csproj"
+              },
+              "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Repositorios\\LIB_Repositorios.csproj": {
+                "projectPath": "D:\\Documentos\\Escritorio\\PROGRAMACIÓN DE SOFTWAR\\Proyecto Library\\Library-VS\\LIB_Repositorios\\LIB_Repositorios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\bin\Debug\net8.0\LIB_Entidades.deps.json
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\bin\Debug\net8.0\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\bin\Debug\net8.0\LIB_Entidades.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.AssemblyInfoInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.AssemblyInfo.cs
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.csproj.CoreCompileInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\refint\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\LIBRARY(Genericos .NET)\LIB_Entidades\obj\Debug\net8.0\ref\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\bin\Debug\net8.0\LIB_Entidades.deps.json
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\bin\Debug\net8.0\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\bin\Debug\net8.0\LIB_Entidades.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.AssemblyInfoInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.AssemblyInfo.cs
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.csproj.CoreCompileInputs.cache
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.sourcelink.json
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\refint\LIB_Entidades.dll
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\LIB_Entidades.pdb
+D:\Documentos\Escritorio\PROGRAMACIÓN DE SOFTWAR\Proyecto Library\Library-VS\LIB_Entidades\obj\Debug\net8.0\ref\LIB_Entidades.dll
