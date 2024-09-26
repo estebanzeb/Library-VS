@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\mst_Pruebas_Unitarias",
+    "\\mst_Pruebas_Unitarias\\Repositorios"
   ],
-  "SelectedNode": "\\LIBRARY(Genericos .NET).sln",
+  "SelectedNode": "\\mst_Pruebas_Unitarias\\Repositorios\\CopiasUnitTest.cs",
   "PreviewInSolutionExplorer": false
 }

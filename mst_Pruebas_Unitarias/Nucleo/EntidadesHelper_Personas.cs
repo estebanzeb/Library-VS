@@ -8,7 +8,7 @@ namespace mst_Pruebas_Unitarias.Nucleo
         {
             return new Personas()
             {
-                Cedula = 121337,
+                Cedula = "563f3yrg4f",
                 Nombre = "sdvsvcsd",
                 Numero= 11225
             };

@@ -13,11 +13,12 @@ namespace mst_Pruebas_Unitarias.Nucleo
         public static Detalles ObtenerDetalles()
         {
             DateTime fecha = Convert.ToDateTime("2012/04/09", CultureInfo.InvariantCulture);
+
             return new Detalles()
             {
-                Fecha_Final = fecha,
+                Fecha_Entrega = fecha,
                 Prestamo=6,
-                Copia=7
+                Copia=6
             };
         }
     }

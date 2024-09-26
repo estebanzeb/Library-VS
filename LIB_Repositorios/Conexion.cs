@@ -15,12 +15,12 @@ namespace LIB_Repositorios
             optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
 
-        protected DbSet<Personas>? PERSONAS { get; set; }
-        protected DbSet<Usuarios>? USUARIOS { get; set; }
-        protected DbSet<Prestamos>? PRESTAMOS { get; set; }
-        protected DbSet<Detalles>? DETALLES { get; set; }
-        protected DbSet<Copias>? COPIAS { get; set; }
-        protected DbSet<Libros>? LIBROS { get; set; }
+        protected DbSet<Personas>? Personas { get; set; }
+        protected DbSet<Usuarios>? Usuarios { get; set; }
+        protected DbSet<Prestamos>? Prestamos { get; set; }
+        protected DbSet<Detalles>? Detalles { get; set; }
+        protected DbSet<Copias>? Copias { get; set; }
+        protected DbSet<Libros>? Libros { get; set; }
 
         public virtual DbSet<T> ObtenerSet<T>() where T : class, new()
         {

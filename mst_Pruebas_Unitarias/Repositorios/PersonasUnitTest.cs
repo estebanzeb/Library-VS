@@ -40,7 +40,6 @@ namespace mst_Pruebas_Unitarias.Repositorios
 
         public void Buscar()
         {
-            //entidad = EntidadesHelper.ObtenerPersonas();
             lista = iRepositorio!.Buscar(x => x.Id != entidad!.Id);
             Assert.IsTrue(lista.Count > 0);
         }

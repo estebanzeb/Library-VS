@@ -7,9 +7,8 @@ namespace LIB_Entidades
     {
         [Key] public int Id { get; set; }
         public string? Notas { get; set; }
-        public bool? Estado { get; set; }
-        public int Libro { get; set; }
+        public bool? Disponible { get; set; }
+        public int Libro { get; set; } [ForeignKey("Libro")] public virtual Libros? _Libros { get; set; }
 
-        [ForeignKey("Libro")] public virtual Libros? _Libros { get; set; }
     }
 }

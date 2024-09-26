@@ -15,8 +15,8 @@ namespace mst_Pruebas_Unitarias.Nucleo
             DateTime fecha = Convert.ToDateTime("1990/01/01", CultureInfo.InvariantCulture);
             return new Prestamos()
             {
-            Fecha_Inicio=fecha,
-            Usuario= 9005566
+            Fecha_Prestamo=fecha,
+            Usuario= 1
             };
         }
     }

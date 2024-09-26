@@ -51,7 +51,6 @@ namespace LIB_Repositorios.Implementaciones
             conexion!.Separadar(entidad);
             return entidad;
         }
-
         public bool Existe(Expression<Func<Libros, bool>> condiciones)
         {
             return conexion!.Existe(condiciones);

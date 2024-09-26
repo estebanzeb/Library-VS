@@ -4,12 +4,7 @@ using LIB_Repositorios.Interfaces;
 using LIB_Repositorios;
 using mst_Pruebas_Unitarias.Nucleo;
 using mst_unittests.Nucleo;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace mst_Pruebas_Unitarias.Repositorios
 {
@@ -59,7 +54,7 @@ namespace mst_Pruebas_Unitarias.Repositorios
 
         public void Modificar()
         {
-            entidad!.Fecha_Final = Convert.ToDateTime("2000-12-29", CultureInfo.InvariantCulture);
+            entidad!.Fecha_Entrega = Convert.ToDateTime("2000-12-29", CultureInfo.InvariantCulture);
             entidad = iRepositorio!.Modificar(entidad!);
             lista = iRepositorio!.Buscar(x => x.Id == entidad.Id);
             Assert.IsTrue(lista.Count > 0);
