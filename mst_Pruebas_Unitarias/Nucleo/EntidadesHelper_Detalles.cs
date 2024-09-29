@@ -16,9 +16,9 @@ namespace mst_Pruebas_Unitarias.Nucleo
 
             return new Detalles()
             {
-                Fecha_Entrega = fecha,
-                Prestamo=6,
-                Copia=6
+                Fecha_entrega = fecha,
+                Prestamo=5,
+                Copia=5
             };
         }
     }

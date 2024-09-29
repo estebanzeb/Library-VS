@@ -8,8 +8,8 @@ namespace mst_Pruebas_Unitarias.Nucleo
         {
             return new Personas()
             {
-                Cedula = "563f3yrg4f",
-                Nombre = "sdvsvcsd",
+                Cedula = "a001teghdr4",
+                Nombre = "Reyban",
                 Numero= 11225
             };
         }

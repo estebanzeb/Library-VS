@@ -8,9 +8,9 @@ namespace mst_Pruebas_Unitarias.Nucleo
         {
             return new Usuarios()
             {
-                Cod_Usuario=9182,
+                Cod_usuario=9182,
                 Correo = "Example@correo.com1",
-                Contraseña="qfebvfd",
+                Contraseña="2f2rg4356jk",
                 Persona=5
             };
         }

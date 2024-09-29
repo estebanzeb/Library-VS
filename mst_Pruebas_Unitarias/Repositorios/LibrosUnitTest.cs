@@ -53,7 +53,7 @@ namespace mst_Pruebas_Unitarias.Repositorios
 
             public void Modificar()
             {
-                entidad!.Nombre_Libro = entidad.Nombre_Libro + " " + DateTime.Now.ToString();
+                entidad!.Nombre_libro = entidad.Nombre_libro + " " + DateTime.Now.ToString();
                 entidad = iRepositorio!.Modificar(entidad!);
 
                 lista = iRepositorio!.Buscar(x => x.Id == entidad.Id);

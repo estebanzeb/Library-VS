@@ -54,7 +54,7 @@ namespace mst_Pruebas_Unitarias.Repositorios
 
         public void Modificar()
         {
-            entidad!.Fecha_Entrega = Convert.ToDateTime("2000-12-29", CultureInfo.InvariantCulture);
+            entidad!.Fecha_entrega = Convert.ToDateTime("2000-12-29", CultureInfo.InvariantCulture);
             entidad = iRepositorio!.Modificar(entidad!);
             lista = iRepositorio!.Buscar(x => x.Id == entidad.Id);
             Assert.IsTrue(lista.Count > 0);

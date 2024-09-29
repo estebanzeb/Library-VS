@@ -14,7 +14,7 @@ CREATE TABLE [Personas](
 CREATE TABLE [Usuarios](
 	[Id] INT NOT NULL IDENTITY(1,1),
 	CONSTRAINT [PK_USUARIOS] PRIMARY KEY CLUSTERED ([Id]),
-	[Cod_Usuario] INT NOT NULL UNIQUE,
+	[Cod_usuario] INT NOT NULL UNIQUE,
 	[Correo] VARCHAR(40) NOT NULL,
 	[Contraseña] VARCHAR(20)NOT NULL,
 	[Persona] INT NOT NULL,
@@ -25,9 +25,9 @@ CREATE TABLE [Usuarios](
 CREATE TABLE [Libros](
 	[Id] INT NOT NULL IDENTITY(1,1),
 	CONSTRAINT [PK_LIBROS] PRIMARY KEY CLUSTERED ([Id]),
-	[Cod_Libro] INT NOT NULL UNIQUE,
-	[Nombre_Libro] VARCHAR(100) NOT NULL,
-	[Fecha_Publicacion] DATE,
+	[Cod_libro] INT NOT NULL UNIQUE,
+	[Nombre_libro] VARCHAR(100) NOT NULL,
+	[Fecha_publicacion] DATE,
 	[Autor] VARCHAR(50)
 )
 
@@ -35,7 +35,7 @@ CREATE TABLE [Copias](
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	CONSTRAINT [PK_COPIAS] PRIMARY KEY CLUSTERED ([Id]),
 	[Notas] VARCHAR(100),
-	[Disponible] BIT DEFAULT 0,
+	[Disponible] BIT DEFAULT 1,
 	[Libro] INT,
 	CONSTRAINT [FK_Copias_Libros] FOREIGN KEY ([Libro]) REFERENCES [Libros] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION
 )
@@ -43,7 +43,7 @@ CREATE TABLE [Copias](
 CREATE TABLE [Prestamos](
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	CONSTRAINT [PK_PRESTAMOS] PRIMARY KEY CLUSTERED ([Id]),
-	[Fecha_Prestamo] DATE NOT NULL,
+	[Fecha_prestamo] DATE NOT NULL,
 	[Usuario] INT NOT NULL,
 	CONSTRAINT [FK_Prestamos_Usuarios] FOREIGN KEY ([Usuario]) REFERENCES [Usuarios] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION
 )
@@ -51,7 +51,7 @@ CREATE TABLE [Prestamos](
 CREATE TABLE [Detalles](
 	[Id] INT NOT NULL IDENTITY (1, 1),
 	CONSTRAINT [PK_DETALLES] PRIMARY KEY CLUSTERED ([Id]),
-	[Fecha_Entrega] DATE NOT NULL,--OBLIGATORIO
+	[Fecha_entrega] DATE NOT NULL,--OBLIGATORIO
 	[Prestamo] INT NOT NULL,
 	[Copia] INT NOT NULL,
 	CONSTRAINT [FK_Detalles_Prestamos] FOREIGN KEY ([Prestamo]) REFERENCES [Prestamos] ([Id]) ON DELETE NO ACTION ON UPDATE NO ACTION,
@@ -66,7 +66,7 @@ INSERT INTO [Personas]([Cedula],[Nombre],[Numero]) VALUES
 (76454,'Angie Esteban Quintero',312344876)
 SELECT * FROM [Personas]
 
-INSERT INTO [Usuarios]([Cod_Usuario],[Correo],[Contraseña],[Persona])VALUES
+INSERT INTO [Usuarios]([Cod_usuario],[Correo],[Contraseña],[Persona])VALUES
 (235765,'Example@correo.com','Holamundo',2),
 (543214,'Example@correo.com','Holam',1),
 (6543269,'Example@correo.com','Holapa',3),
@@ -74,7 +74,7 @@ INSERT INTO [Usuarios]([Cod_Usuario],[Correo],[Contraseña],[Persona])VALUES
 (987653,'Example@correo.com','Holainfiel',5)
 SELECT * FROM [Usuarios]
 
-INSERT INTO [Libros]([Cod_Libro],[Nombre_Libro],[Fecha_Publicacion],[Autor]) VALUES
+INSERT INTO [Libros]([Cod_libro],[Nombre_libro],[Fecha_publicacion],[Autor]) VALUES
 (23468,'Titulo1','1930-11-01','Silleban'),
 (12454,'Titulo2','1920-12-10','Nevereban'),
 (965594,'Titulo3','1910-09-21','Noseban'),
@@ -91,7 +91,7 @@ INSERT INTO [Copias]([Notas],[Disponible],[Libro])VALUES
 ('C',1,3)
 SELECT * FROM [Copias]
 
-INSERT INTO [Prestamos]([Fecha_Prestamo],[Usuario])VALUES
+INSERT INTO [Prestamos]([Fecha_prestamo],[Usuario])VALUES
 ('1530-11-01',1),
 ('1730-11-01',2),
 ('1330-11-01',3),
@@ -100,7 +100,7 @@ INSERT INTO [Prestamos]([Fecha_Prestamo],[Usuario])VALUES
 ('1030-11-01',5)
 SELECT * FROM [Prestamos]
 
-INSERT INTO [Detalles]([Fecha_Entrega],[Prestamo],[Copia])VALUES
+INSERT INTO [Detalles]([Fecha_entrega],[Prestamo],[Copia])VALUES
 ('2002-03-15',2,4),
 ('1980-03-25',1,3),
 ('2002-11-15',3,1),

@@ -40,7 +40,7 @@ namespace mst_Pruebas_Unitarias.Repositorios
 
         public void Buscar()
         {
-            lista = iRepositorio!.Buscar(x => x.Cod_Usuario != entidad!.Cod_Usuario);
+            lista = iRepositorio!.Buscar(x => x.Id != entidad!.Id);
             Assert.IsTrue(lista.Count > 0);
         }
 
@@ -48,7 +48,7 @@ namespace mst_Pruebas_Unitarias.Repositorios
         {
             entidad = EntidadesHelper_Usuarios.ObtenerUsuarios();
             entidad = iRepositorio!.Guardar(entidad!);
-            Assert.IsTrue(entidad.Cod_Usuario != 0);
+            Assert.IsTrue(entidad.Id != 0);
         }
 
         public void Modificar()
@@ -56,14 +56,14 @@ namespace mst_Pruebas_Unitarias.Repositorios
             entidad!.Correo = entidad.Correo + " " + DateTime.Now.ToString();
             entidad = iRepositorio!.Modificar(entidad!);
 
-            lista = iRepositorio!.Buscar(x => x.Cod_Usuario == entidad.Cod_Usuario);
+            lista = iRepositorio!.Buscar(x => x.Id == entidad.Id);
             Assert.IsTrue(lista.Count > 0);
         }
 
         public void Borrar()
         {
             entidad = iRepositorio!.Borrar(entidad!);
-            lista = iRepositorio!.Buscar(x => x.Cod_Usuario == entidad!.Cod_Usuario);
+            lista = iRepositorio!.Buscar(x => x.Id == entidad!.Id);
             Assert.IsTrue(lista.Count == 0);
         }
     }

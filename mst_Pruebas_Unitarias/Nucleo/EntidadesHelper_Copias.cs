@@ -13,7 +13,7 @@ namespace mst_Pruebas_Unitarias.Nucleo
         {
             return new Copias()
             {
-                Notas="Hola",
+                Notas="t",
                 Disponible=true,
                 Libro=4,
             };

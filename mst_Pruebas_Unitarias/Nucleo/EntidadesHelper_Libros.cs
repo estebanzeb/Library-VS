@@ -15,10 +15,10 @@ namespace mst_Pruebas_Unitarias.Nucleo
             DateTime fecha = Convert.ToDateTime("1990/01/01", CultureInfo.InvariantCulture);
             return new Libros()
             {
-                Cod_Libro=12423,
-                Nombre_Libro="qfewf",
-                Fecha_Publicacion = fecha,
-                Autor ="Yo"
+                Cod_libro=12423,
+                Nombre_libro="Tutuli one",
+                Fecha_publicacion = fecha,
+                Autor ="Miguel"
             };
         }
     }
