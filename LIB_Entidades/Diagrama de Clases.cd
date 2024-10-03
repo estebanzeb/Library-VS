@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LIB_Entidades.Copias">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAAAAABAAAAAAAAAAAAEQAAAAAAAAAAAA=</HashCode>
+      <FileName>Copias.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_Libros" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LIB_Entidades.Libros">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAgAAAAAAAABAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Libros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LIB_Entidades.Personas">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Personas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LIB_Entidades.Prestamos">
+    <Position X="1.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAACAA=</HashCode>
+      <FileName>Prestamos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_Usuarios" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LIB_Entidades.Detalles">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAIAAABAAAACEAAAAQAQAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Detalles.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_Copias" />
+      <Property Name="_Prestamos" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LIB_Entidades.Usuarios">
+    <Position X="1.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIIAAAAAAAAAAIAAAAIEAAAECAAAAAA=</HashCode>
+      <FileName>Usuarios.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="_Persona" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

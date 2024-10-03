@@ -10,5 +10,14 @@ namespace LIB_Entidades
         public string? Correo { get; set; }
         public string? Contraseña { get; set; }
         public int Persona { get; set; } [ForeignKey("Persona")] public virtual Personas? _Persona { get; set; }
+
+        public void Prestar()
+        {
+
+        }
+        public void Validar_persona()
+        {
+
+        }
     }
 }

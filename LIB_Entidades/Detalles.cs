@@ -9,6 +9,13 @@ namespace LIB_Entidades
         public DateTime Fecha_entrega { get; set; }
         public int Prestamo { get; set; } [ForeignKey("Prestamo")] public virtual Prestamos? _Prestamos { get; set; }
         public int Copia { get; set; } [ForeignKey("Copia")] public virtual Copias? _Copias { get; set; }
+        public void Historial_usuario()
+        {
 
+        }
+        public void Copia_disponible()
+        {
+
+        }
     }
 }
